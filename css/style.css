@@ -2315,7 +2315,7 @@ body {
 .menu-button {
     display: none; /* hidden by default on desktop */
     position: fixed;
-    background: none;
+    background: var(--accent-primary-light);
     border: none;
     cursor: pointer;
     padding: 0.5rem;
@@ -2371,3 +2371,4 @@ body {
         z-index: 1040;
     }
 }
+
