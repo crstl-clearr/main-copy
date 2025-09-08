@@ -2371,35 +2371,3 @@ body {
         z-index: 1040;
     }
 }
-
-/* --- Mobile-only Responsive Fixes --- */
-@media (max-width: 768px) {
-    /* Prevent horizontal scrolling */
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    /* Responsive logo */
-    .logo-icon {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Responsive container */
-    .container {
-        max-width: 100%;
-        padding: 0 1rem;
-    }
-
-    /* Responsive table */
-    .table-wrapper {
-        overflow-x: auto;   /* allow scroll inside table wrapper */
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .log-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-}
